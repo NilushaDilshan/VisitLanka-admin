@@ -1,0 +1,153 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+}
+
+/* DARK OVERLAY */
+.login-overlay {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGO */
+.logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.logo-circle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00d4ff;
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+}
+
+/* TITLE */
+.title {
+  font-size: 60px;
+  color: white;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.blue {
+  color: #00d4ff;
+}
+
+.green {
+  color: #2ecc71;
+}
+
+/* SUBTITLE */
+.subtitle {
+  color: #dcdcdc;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+/* LOGIN CARD */
+.login-card {
+  width: 380px;
+  padding: 35px;
+  background: rgba(15, 32, 39, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* INPUT BOX */
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+
+.input-box:focus-within {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #00d4ff;
+}
+
+.input-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+.input-box input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.eye {
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #00d4ff, #2ecc71);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+button:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .login-card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .logo-circle img {
+    width: 100px;
+    height: 100px;
+  }
+}

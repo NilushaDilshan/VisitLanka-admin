@@ -1,0 +1,565 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==========================================
+   GLOBAL SETTINGS PAGE
+========================================== */
+
+.settings-container {
+  min-height: calc(100vh - 70px);
+  background: #0f172a;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.settings-wrapper {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.settings-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  cursor: pointer;
+  color: #00c2a8;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: rgba(0, 194, 168, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   MENU LIST (MAIN PAGE)
+========================================== */
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  transition: 0.35s;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-item::before {
+  content: "";
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  opacity: 0.12;
+  background: #00c2a8;
+}
+
+.menu-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.35);
+  border-color: #00c2a8;
+}
+
+.menu-item-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 1;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.menu-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menu-desc {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+.menu-arrow {
+  font-size: 24px;
+  color: #94a3b8;
+  z-index: 1;
+}
+
+/* ==========================================
+   LOGOUT BUTTON
+========================================== */
+
+.logout-item {
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.logout-item::before {
+  background: #ef4444;
+}
+
+.logout-item:hover {
+  border-color: #ef4444;
+  box-shadow: 0 18px 35px rgba(239, 68, 68, 0.25);
+}
+
+.logout-title {
+  color: #f87171;
+}
+
+/* ==========================================
+   FORMS (PROFILE / PASSWORD)
+========================================== */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.input-field {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input-field::placeholder {
+  color: #64748b;
+}
+
+.input-field:focus {
+  border-color: #00c2a8;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(0, 194, 168, 0.15);
+}
+
+.input-field option {
+  background: #1e293b;
+  color: #fff;
+}
+
+/* ==========================================
+   SAVE BUTTON
+========================================== */
+
+.save-button {
+  margin-top: 10px;
+  padding: 14px 22px;
+  background: #00c2a8;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.save-button:hover {
+  background: #009b87;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 194, 168, 0.3);
+}
+
+.save-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ==========================================
+   ERROR MESSAGE
+========================================== */
+
+.error-msg {
+  background: rgba(127, 29, 29, 0.5);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  backdrop-filter: blur(12px);
+}
+
+/* ==========================================
+   INFO CARDS (COMPANY INFO)
+========================================== */
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.info-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  transition: 0.35s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.35);
+}
+
+.info-card::before {
+  content: "";
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  opacity: 0.12;
+  background: #00c2a8;
+}
+
+.info-card-green {
+  border-left: 5px solid #10b981;
+}
+
+.info-card-green::before {
+  background: #10b981;
+}
+
+.info-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.info-icon {
+  font-size: 24px;
+}
+
+.info-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.info-title.text-green {
+  color: #4ade80;
+}
+
+.info-content {
+  font-size: 13px;
+  color: #cbd5e1;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+/* ==========================================
+   NOTIFICATION SWITCHES
+========================================== */
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.switch-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  transition: 0.35s;
+}
+
+.switch-card:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(0, 194, 168, 0.3);
+}
+
+.switch-content {
+  flex: 1;
+}
+
+.switch-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+}
+
+.switch-desc {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.switch-btn {
+  width: 54px;
+  height: 30px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.switch-active {
+  background: #00c2a8;
+  border-color: #00c2a8;
+}
+
+.switch-toggle {
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch-active .switch-toggle {
+  left: 27px;
+}
+
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+}
+
+.about-logo {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.about-app-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about-version {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+.about-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 22px;
+  backdrop-filter: blur(12px);
+  transition: 0.35s;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.about-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #00c2a8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-card-content {
+  font-size: 13px;
+  color: #cbd5e1;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+/* ==========================================
+   LOADING
+========================================== */
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00c2a8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #009b87;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 768px) {
+  .settings-container {
+    padding: 20px;
+  }
+
+  .settings-wrapper {
+    padding: 18px;
+  }
+
+  .settings-title {
+    font-size: 26px;
+  }
+
+  .menu-title {
+    font-size: 14px;
+  }
+
+  .menu-item,
+  .info-card,
+  .switch-card,
+  .about-card {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .settings-title {
+    font-size: 24px;
+  }
+
+  .back-btn {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+
+  .menu-icon,
+  .info-icon {
+    font-size: 20px;
+  }
+
+  .about-logo {
+    font-size: 48px;
+  }
+
+  .about-app-name {
+    font-size: 24px;
+  }
+}

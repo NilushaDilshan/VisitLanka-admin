@@ -1,0 +1,124 @@
+.user-page {
+  padding: 20px;
+  color: #fff;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+/* HEADER */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* SEARCH */
+.search-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  outline: none;
+}
+
+/* TABLE CARD */
+.table-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* TABLE */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th {
+  text-align: left;
+  padding: 12px;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.user-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.9);
+}
+
+/* STATUS */
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.status.active {
+  background: green;
+  color: #fff;
+}
+
+.status.blocked {
+  background: red;
+  color: #fff;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn.block {
+  background: orange;
+  color: #fff;
+}
+
+.btn.delete {
+  background: crimson;
+  color: #fff;
+}
+
+/* NO DATA */
+.no-data {
+  text-align: center;
+  padding: 20px;
+}
+/* Profile Image Styles */
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00C2A8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Table eka poddak responsive karanna */
+.user-table td {
+  vertical-align: middle;
+}
