@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+# 💻 VisitLanka Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VisitLanka Admin Dashboard is a React-based web application developed to manage the **VisitLanka Smart Travel & Booking System**. It provides administrators and agents with a centralized platform to manage destinations, hotels, vehicles, bookings, users, and reports.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* 🔐 Admin & Agent Secure Login
+* 📊 Dashboard with System Statistics
+* 🏝️ Destination Management
+* 🏨 Hotel Management
+* 🚗 Vehicle Management
+* 📅 Booking Management
+* 👥 User Management
+* 👤 Agent Management
+* 📈 Reports & Analytics
+* ⚙️ System Settings
+* 🔥 Real-time Data Management with Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+* React.js
+* JavaScript
+* Firebase Authentication
+* Cloud Firestore
+* HTML5
+* CSS3
+* Git
+* GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Login Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Login](screenshots/login.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Admin Dashboard
 
-### `npm run eject`
+![Dashboard](screenshots/dashboard.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Destination Management
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Destinations](screenshots/destinations.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Hotel Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Hotels](screenshots/hotels.png)
 
-## Learn More
+### Vehicle Management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Vehicles](screenshots/vehicles.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Booking Management
 
-### Code Splitting
+![Bookings](screenshots/bookings.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### User Management
 
-### Analyzing the Bundle Size
+![Users](screenshots/users.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Reports
 
-### Making a Progressive Web App
+![Reports](screenshots/reports.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+* Node.js
+* npm
+* Firebase Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📥 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the repository:
+
+```bash
+git clone https://github.com/NilushaDilshan/VisitLanka-admin.git
+```
+
+Go to project folder:
+
+```bash
+cd VisitLanka-admin
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm start
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── firebase/
+├── assets/
+├── App.js
+└── main.jsx
+```
+
+---
+
+## 🔥 Firebase Services
+
+* Firebase Authentication
+* Cloud Firestore Database
+
+---
+
+## 🎯 Future Improvements
+
+* Advanced analytics dashboard
+* Online payment management
+* Notification system
+* Google Maps integration
+* AI-based travel insights
+
+---
+
+## 👨‍💻 Developed By
+
+**Nilusha Dilshan**
+
+HNDIT Final Year Project
+
+GitHub:
+https://github.com/NilushaDilshan
+
+---
+
+## 📄 License
+
+This project was developed for educational purposes as a Final Year Project.
