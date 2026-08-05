@@ -37,35 +37,47 @@ VisitLanka Admin Dashboard is a React-based web application developed to manage 
 
 ### Login Page
 
-![Login](screenshots/login.png)
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/b9664733-6a11-464c-8422-0b73dc9af8c3" />
+
 
 ### Admin Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/02ee4fd0-96f0-4e46-b7a2-68d656c69c4c" />
+
 
 ### Destination Management
 
-![Destinations](screenshots/destinations.png)
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/67b33d25-7dfc-4ef1-b3ee-8cf24070371e" />
+
 
 ### Hotel Management
 
-![Hotels](screenshots/hotels.png)
+<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/1afd4fa5-f542-416a-96f1-20f9125e3cdb" />
+
 
 ### Vehicle Management
 
-![Vehicles](screenshots/vehicles.png)
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/d3e83fde-2150-474d-8822-a188f9106b55" />
+
 
 ### Booking Management
+<img width="1917" height="861" alt="image" src="https://github.com/user-attachments/assets/ed7e9822-f5b4-4952-bd1d-da9554a7cd1c" />
 
-![Bookings](screenshots/bookings.png)
+
 
 ### User Management
 
-![Users](screenshots/users.png)
+<img width="1916" height="866" alt="image" src="https://github.com/user-attachments/assets/ff5abf8b-b659-4564-9839-4e99e2906a7d" />
+
 
 ### Reports
 
-![Reports](screenshots/reports.png)
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/0c15d09f-2d51-4fa1-ae4b-97edcac47f77" />
+
+
+### Agent Dashboard
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/e74f26e3-4fd6-4dad-a4f1-df034ca12f92" />
+
 
 ---
 
